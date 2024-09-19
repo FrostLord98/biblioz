@@ -1,4 +1,4 @@
-from biblioz import create_app
+from __init__ import create_app
 
 # Crea una instancia de la aplicación Flask usando la configuración definida en create_app
 app = create_app()
